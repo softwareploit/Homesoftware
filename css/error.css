@@ -1,0 +1,53 @@
+  
+  header p {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: white;
+  }
+  
+  h2 {
+    color: red;
+  }
+  
+  main {
+    margin-bottom: 64px;
+  }
+  
+  .img-wrapper {
+    text-align: center;
+  }
+  
+  img {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  
+   h2 {
+    font-size: 3rem;
+    margin-bottom: 16px;
+  }
+  
+
+  
+
+  
+  @media (min-width: 768px) {
+    main {
+      display: flex;
+      align-items: center;
+      gap: 32px;
+      margin: 0;
+    }
+  
+    main > * {
+      flex: 1;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    section h2 {
+      font-size: 4rem;
+    }
+  
+    
+  }
