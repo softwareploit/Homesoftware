@@ -1,2 +1,0 @@
-# Homesoftware
-home softwareploit
