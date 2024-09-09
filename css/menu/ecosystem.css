@@ -1,0 +1,43 @@
+.containers {
+  margin-top: 0vh;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  
+  padding: 12px;
+}
+
+.containers>div {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  padding: 1em;
+  border: 1px solid black;
+}
+
+.top-left {
+  grid-column: 1/2;
+}
+
+.top-right {
+  grid-column: 2/3;
+}
+
+.content {
+  grid-column: 3/4;
+}
+
+.bottom-left {
+  grid-column: 1/2;
+}
+
+.bottom-center {
+  grid-column: 2/3;
+}
+
+.bottom-right {
+  grid-column: 3/4;
+}
+
