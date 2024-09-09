@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Wix+Madefor+Text:wght@600&display=swap');
+
+
+@import url("howtobuy.css");
+@import url("tokenomics.css");
+
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.heading__seahorse {
+    color: var(--heading-seahorse);
+}
+
+.highlight__color {
+    color: var(--highlight-color);
+}
